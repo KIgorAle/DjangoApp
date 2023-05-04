@@ -23,8 +23,8 @@
 
 ## Демонстрация:
 1) Главная страница, единственная куда я поместил два меню:
-![](https://i.imgur.com/0ofOlmH.png)
-2) Страница местоположения, содержит одно меню (main_menu):
-![](https://i.imgur.com/zjwNl3W.png)
+![1](https://user-images.githubusercontent.com/25643872/236263319-cf4179b8-9c40-44b1-9da8-796aa4054ebb.png)
 
+2) Страница местоположения, содержит одно меню (main_menu):
+![2](https://user-images.githubusercontent.com/25643872/236263323-7c091331-4daf-48f2-9a61-c382617c6ca0.png)
 
