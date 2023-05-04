@@ -1,0 +1,23 @@
+{% load static %}
+{% load menu_tags %}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Тестовый сайт Django{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <h1>Главная</h1>
+        <ul class="menu">
+            {% draw_menu 'main_menu' %}
+        </ul>
+        <br>
+        <ul class="sidebar-menu">
+            {% draw_menu 'secondary_menu' %}
+        </ul>
+        <div class="content">
+            {% block content %}Приветствие и всякие общие слова...{% endblock %}
+        </div>
+    </body>
+</html>
+
